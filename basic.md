@@ -166,10 +166,7 @@
     git push
     ```
 
-
-### 删除单个文件
-```bash
-git rm 文件名
+---
 
 ### <div style="text-align: center; color: green;">基本的终端命令</div>
 #### 1. `cd` 指令：切换工作目录
@@ -301,7 +298,7 @@ git rm 文件名
 
 ---
 
-#### 3.`dir`指令:列出当前文件夹下内容
+#### 3. `dir`指令:列出当前文件夹下内容
 
 - **适用环境**：Windows 系统（cmd 和 PowerShell）。
 - **功能**：列出当前目录或指定目录中的所有文件和文件夹。
@@ -375,4 +372,29 @@ git rm 文件名
   - 在 Windows 中，`copy` 用于复制文件，复制目录需使用 `xcopy`。
   - 在 Linux/Unix 系统中，`cp` 用于复制文件和目录，配合 `-r`(即-Recurse) 选项可递归复制目录。
 
+---
 
+#### 8. 创建文件和文件夹
+1. ##### 创建文件夹:使用 `mkdir` 命令创建文件夹。
+-  语法
+    ```bash
+    mkdir 文件夹名称
+    ```
+2. ##### 创建文件:使用 `touch` 命令创建文件夹.
+-  语法
+    ```bash
+    touch 文件名称
+    ```
+3. ##### 内容的写入
+-  ##### 语法
+    ```bash
+    echo "Hello, World!" > example.txt
+    ```
+    - 如果文件已存在，这会覆盖内容。
+    - 如果想追加内容而不覆盖，用 >>：
+        ```
+        echo "This is additional content." >> example.txt
+        ```
+
+---
+<div style="text-align: center; color: blue;">未系统学习markdown，且水平不足，会在以后的使用中不断修改和增添新的内容</div>
