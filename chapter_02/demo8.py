@@ -1,3 +1,3 @@
 filename = "python_notes.txt"
-print(filename.suffix(".txt"))
+print(filename.removesuffix(".txt"))
 
