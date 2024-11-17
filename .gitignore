@@ -9,11 +9,11 @@ __pycache__/
 experiments/
 study_codes/
 
-# 忽略 IDE 文件
-.vscode/
-*.swp
+# # 忽略 IDE 文件
+# .vscode/
+# *.swp
 
-# 忽略操作系统文件
-.DS_Store
-Thumbs.db
+# # 忽略操作系统文件
+# .DS_Store
+# Thumbs.db
 
