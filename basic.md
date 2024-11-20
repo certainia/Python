@@ -25,7 +25,7 @@
 
    使用以下命令检查已配置的用户名和邮箱：
 
-   ```bash
+   ```bash   
    git config --list
    ```
 
@@ -181,7 +181,7 @@
 3. 推送到远程仓库
    即把更改同步到 GitHub
    ```bash
-   git push
+   git push origin main
    ```
 
 ---
